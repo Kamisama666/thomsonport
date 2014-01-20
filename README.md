@@ -4,7 +4,7 @@ thomsonPort
 Little java aplication to remotely open ports in the Thomson TCW710 router.
 
 I use a vulnerability in the router to be able to change the forwaded ports in the router
-remotely a without the need of authentification.
+remotely without the need of authentification.
 
 This application is based in the one released by Luis Delgado J. 
 on http://www.securitybydefault.com/2011/01/modificando-credenciales-en-routers.html
@@ -21,4 +21,4 @@ idport value. Also, the rule can vale activated or not. To activate it you shoul
 put the "a" letter as the state value. If not, any other thing will serve.
 
 Maybe, in future updates, I will implement a method to handle the response of the
-router in order to know the previous state of the rules so you only need the pass the rules you want to change. But only maybe.
+router in order to know the previous state of the rules so you only need to pass the rules you want to change. But only maybe.
